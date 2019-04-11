@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  flex: 1 0 auto;
+}
+
+#footer {
+  background-color: #243B53;
+  flex-shrink: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #F364A2;
+  border-color: #F364A2;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #F364A2;
+  border-color: #F364A2;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 3px rgba(253, 121, 168, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #F364A2;
+  border-color: #F364A2;
+}
+
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #F364A2;
+  background-image: none;
+  border-color: #F364A2;
+}
+
+.section-spacer-xs {
+  height: 40px;
+  width: 100%;
+}
+
+.section-spacer-sm {
+  height: 80px;
+  width: 100%;
+}
+
+.section-spacer-md {
+  height: 160px;
+  width: 100%;
+}
+
+.section-spacer-lg {
+  height: 240px;
+  width: 100%;
+}
+
+.section-light {
+  background-color: #F0F4F8;
+  
+}
+
+ul.no-bullet-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul.social-list {
+  padding-left: 0;
+}
+
+li.social-item {
+  display: inline-block;
+  padding-inline-end: 40px;
+}
+
+@media (max-width: 767.98px) {
+  li.social-item {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+  }
+}
+
+.jumbotron h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.jumbotron p {
+  font-size: 18px;
+}
+
+#jumbotron-home {
+  min-height: 600px;
+}
+
+.underscore-sm-primary {
+  background-color: #F364A2;
+  height: 3px;
+  width: 40px;
+}
+
+.underscore-md-primary {
+  background-color: #F364A2;
+  height: 5px;
+  width: 80px;
+}
+
+.underscore-sm-secondary {
+  background-color: #F364A2;
+  height: 3px;
+  width: 40px;
+}
+
+.underscore-md-secondary {
+  background-color: #F364A2;
+  height: 5px;
+  width: 80px;
+}
+
+.star-rating i {
+  color: #F7C948;
+}
+
+.report-quote a {
+  color: #F364A2 !important;
+}
