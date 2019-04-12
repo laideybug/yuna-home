@@ -107,31 +107,35 @@ li.social-item {
 }
 
 .underscore-sm-primary {
-  background-color: #F364A2;
+  background-color: #FD79A8;
   height: 3px;
   width: 40px;
 }
 
 .underscore-md-primary {
-  background-color: #F364A2;
+  background-color: #FD79A8;
   height: 5px;
   width: 80px;
 }
 
 .underscore-sm-secondary {
-  background-color: #F364A2;
+  background-color: #FD79A8;
   height: 3px;
   width: 40px;
 }
 
 .underscore-md-secondary {
-  background-color: #F364A2;
+  background-color: #FD79A8;
   height: 5px;
   width: 80px;
 }
 
 .star-rating i {
   color: #F7C948;
+}
+
+.check-mark {
+  color: #F364A2;
 }
 
 .report-quote a {
