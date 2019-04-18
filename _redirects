@@ -2,6 +2,7 @@
 /                       /en                        302         Language=en
 /                       /es                        302         Language=es
 
+/en                     /
 /en/index.html          /
 /en/404.html            /page-not-found
 /en/contact.html        /contact
@@ -9,6 +10,7 @@
 /en/privacy.html        /privacy
 /en/terms.html          /terms
 
+/es                     /
 /es/index.html          /
 /es/404.html            /pagina-no-encontrada
 /es/contacto.html       /contacto
