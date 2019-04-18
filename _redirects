@@ -1,3 +1,6 @@
 # Redirects from what the browser requests to what we serve
 /                       /en                        302         Language=en
 /                       /es                        302         Language=es
+
+/en/*                   /en/404.html               404
+/de/*                   /de/404.html               404
