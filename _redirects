@@ -1,17 +1,19 @@
 # Redirects from what the browser requests to what we serve
-/en/*                   /en/404.html                404
-/es/*                   /de/404.html                404
+/                       /en/index.html
 
-/en/index.html           /
-/en/404.html             /page-not-found
-/en/contact.html         /contact
-/en/thank-you.html       /thank-you
-/en/privacy.html         /privacy
-/en/terms.html           /terms
+/en/index.html          /
+/en/404.html            /page-not-found
+/en/contact.html        /contact
+/en/thank-you.html      /thank-you
+/en/privacy.html        /privacy
+/en/terms.html          /terms
 
-/es/index.html           /
-/es/404.html             /pagina-no-encontrada
-/es/contacto.html        /contacto
-/es/gracias.html         /gracias
-/es/privacidad.html      /privacidad
-/es/terminos.html        /terminos
+/es/index.html          /
+/es/404.html            /pagina-no-encontrada
+/es/contacto.html       /contacto
+/es/gracias.html        /gracias
+/es/privacidad.html     /privacidad
+/es/terminos.html       /terminos
+
+
+/                       /es                        302         Language=es
