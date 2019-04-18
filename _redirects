@@ -1,17 +1,12 @@
 # Redirects from what the browser requests to what we serve
-/                       /en                        302         Language=en
-/                       /es                        302         Language=es
+/                       /en/index.html
 
-/en                     /
-/en/index.html          /
 /en/404.html            /page-not-found
 /en/contact.html        /contact
 /en/thank-you.html      /thank-you
 /en/privacy.html        /privacy
 /en/terms.html          /terms
 
-/es                     /
-/es/index.html          /
 /es/404.html            /pagina-no-encontrada
 /es/contacto.html       /contacto
 /es/gracias.html        /gracias
