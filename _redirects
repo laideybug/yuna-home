@@ -1,7 +1,16 @@
 # Redirects from what the browser requests to what we serve
-/index.html         /
-/404.html           /page-not-found
-/contact.html       /contact
-/success.html       /success
-/privacy.html       /privacy
-/terms.html         /terms
+/                       /en/index.html
+
+en/index.html           /
+en/404.html             /page-not-found
+en/contact.html         /contact
+en/thank-you.html       /thank-you
+en/privacy.html         /privacy
+en/terms.html           /terms
+
+es/index.html           /
+es/404.html             /pagina-no-encontrada
+es/contacto.html        /contacto
+es/gracias.html         /gracias
+es/privacidad.html      /privacidad
+es/terminos.html        /terminos
