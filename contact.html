@@ -52,7 +52,7 @@
           </div>
           <div class="row d-flex justify-content-center">
             <div class="col-sm-6">
-              <form name="contact" method="POST" action="/thank-you" data-netlify-recaptcha="true" netlify>
+              <form name="contact" method="POST" action="/thank-you" netlify>
                 <div class="form-row">
                   <div class="form-group col-sm-6">
                     <label for="inputFirstName">First name</label>
@@ -87,7 +87,6 @@
                   <label for="textAdditionalInformation">Additional information</label>
                   <textarea class="form-control" rows="5" id="textAdditionalInformation" name="additional information"></textarea>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
                 <button type="submit" class="btn btn-primary my-4">Submit Form</button>
                 <p class="text-muted">* This field is required</p>
               </form>
