@@ -1,4 +1,6 @@
 # Redirects from what the browser requests to what we serve
 /                       /es                        302         Language=es
-
 /es/*                   /es/404.html               404
+
+https://yunahealth.com/* https://askyuna.com/:splat 301!
+https://askyuna.netlify.com/* https://askyuna.com/:splat 301!
