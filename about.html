@@ -25,7 +25,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- Title -->
-    <title>Contact Us &vert; Yuna</title>
+    <title>About Us &vert; Yuna</title>
   </head>
   <body>
     <div class="main">
@@ -41,51 +41,48 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item mt-3 mt-lg-0 mr-lg-4">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link active" href="./about.html">About</a>
               </li>
               <li class="nav-item mt-3 mt-lg-0 mr-lg-4">
-                <a class="nav-link active" href="./contact.html">Contact Us</a>
+                <a class="nav-link" href="./contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-  
-      <div class="py-5">
-        <div class="container pt-4 pb-5">
-          <div class="row d-flex justify-content-center mb-5">
-            <div class="col-sm-6 text-center">
-              <h1><strong>Let's connect</strong></h1>
-              <p>Complete the form below and we will be in touch ASAP!</p>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-sm-6">
-              <form name="contact" method="POST" action="https://formspree.io/hello@yunahealth.com">
-                <div class="form-row">
-                  <div class="form-group col-sm-6">
-                    <label for="inputFirstName">First name</label>
-                    <input type="text" class="form-control" id="inputFirstName" name="firstName" required />
-                  </div>
-                  <div class="form-group col-sm-6">
-                    <label for="inputLastName">Last name</label>
-                    <input type="text" class="form-control" id="inputLastName" name="lastName" required />
-                  </div>
-								</div>
-                <div class="form-group">
-                  <label for="inputEmailAddress">Email</label>
-                  <input type="email" class="form-control" id="inputEmailAddress" name="emailAddress" required />
-                </div>
-                <div class="form-group">
-                  <label for="textAdditionalInformation">Your message</label>
-                  <textarea class="form-control" rows="5" id="textAdditionalInformation" name="additional information" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary rounded-pill my-4">Submit</button>
-              </form>
-            </div>
+
+      <div class="section-spacer-sm"></div>
+
+      <section class="container d-flex flex-column">
+        <div class="row align-items-center justify-content-center mb-5">
+          <div class="col-lg-6">
+            <img class="img-fluid w-100 mb-5" src="./img/woman-meditating.svg" alt="woman meditating illustration">
+            <h2 class="text-center"><strong>Our Mission</strong></h2>
+            <p class="text-muted text-center">Yuna's mission is to facilitate a world where every parent has access to care and support for them and their baby.</p>
           </div>
         </div>
-      </div>
+      </section>
+  
+      <div class="section-spacer-sm"></div>
+
+      <section class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-3 d-flex align-items-center justify-content-center mb-4 mb-md-0">
+            <div data-aos="fade-in" data-aos-once="true">
+              <img src="./img/iolanda.jpg" class="bg-light rounded-circle" width="200", height="200" alt="iolanda pearse">
+            </div>
+          </div>
+          <div class="col-md-5 d-flex align-items-center justify-content-center mb-4 mb-md-0">
+              <div class="text-center text-md-left" data-aos="fade-in" data-aos-once="true">
+                <h4><strong>Iolanda Pearse</strong></h4>
+                <h6 class="text-muted mb-3">Co-founder & CEO</h6>
+                <p>Iolanda is a midwife who is passionate about providing parents with the support and care they need. She graduated from Trinity College Dublin with a BSc in Midwifery.</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-spacer-md"></div>
     </div>
 
     <!-- FOOTER -->

@@ -173,26 +173,41 @@ li.social-item {
   }
 }
 
-.underscore-sm {
-  background-color: #FD79A8;
-  height: 3px;
-  width: 40px;
+.underscore-legal {
+  background-color: #F364A2;
+  height: 2px;
+  width: 37px;
 }
 
-.underscore-md {
-  background-color: #FD79A8;
-  height: 5px;
-  width: 80px;
+.underscore-company {
+  background-color: #F364A2;
+  height: 2px;
+  width: 67px;
 }
 
 .number-circle-container {
   align-items: center;
-  background: #5ED0FA;
+  background: #2CB1BC;
   border-radius: 50%;
   display: flex;
-  height: 40px;
+  height: 28px;
   justify-content: center;
-  width: 40px;
+  width: 28px;
+  position: relative;
+  bottom: 2px;
+}
+
+.card-rounded {
+  border-radius: 18px !important;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+
+.subject-grid .col-md-3 {
+  margin-top: 30px !important;
 }
 
 .star-rating i {
@@ -205,4 +220,19 @@ li.social-item {
 
 .report-quote a {
   color: #F364A2 !important;
+}
+
+.love-heart i {
+  color: #F364A2;
+}
+
+.text-link a {
+  color: #F364A2 !important;
+}
+
+@media (min-width: 767.98px) {
+  .clouds {
+    background: url("../img/clouds.svg");
+    background-size: cover;
+  }
 }
